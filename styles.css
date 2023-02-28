@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 body {
     margin: 0;
@@ -16,7 +17,7 @@ header {
     background-position: 0px 0px;
     background-repeat: no-repeat;
     color: white;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -29,7 +30,7 @@ header {
 h1, h2 {
     text-align: center;
     margin: 0;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 h1 {
@@ -46,6 +47,7 @@ h2 {
 .filtre {
     display: flex;
     width: 70%;
+    margin-bottom: 30px;
 }
 
 #adresse_filter {
@@ -112,6 +114,7 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 0px 2px 2px 0px;
     }
 
     .img_right img {
@@ -216,7 +219,6 @@ footer {
     justify-content: space-around;
     width: 30%;
     padding: 50px 0px 100px 0px;
-    border: 1px solid black;
 }
 
 .img_left {
@@ -232,6 +234,9 @@ width: 30%;
 .coordonnes {
     line-height: 20px;
     height: 10%;
-    border: 1px solid ;
     font-size: 1em;
+}
+
+.coordonnes h3 {
+    font-weight: normal;
 }
