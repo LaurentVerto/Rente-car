@@ -22,11 +22,31 @@
     }
 
     .right_header {
-        height: 30%;
+        height: 45%;
     }
 
-    .container_voiture {
+    .container_voitures {
+        height: 30vh;
+    }
+
+    .container {
+        width: 100%;
+    }
+    .desc_v {
+        display: none;
+    }
+
+    .left {
         height: 40vh;
+        width: 100%;
+    }
+
+    .right {
+        height: 30vh;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
