@@ -1,6 +1,5 @@
-@media (max-width: 425px) {
-    
-    .left_header, .filtre, .right_header {
+@media (max-width: 980px) {
+    .filtre, .right_header {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -8,12 +7,17 @@
     }
 
     .left_header {
-        height: 20vh;
+        width: 100%;
+        height: 5vh;
+        box-sizing: border-box;
+        
     }
 
+   
+
     .left_header button, .left_header .date {
-        width: 98%;
-        height: 25%;
+        width: 30%;
+        height: 90%;
     }
 
     .date input {
@@ -24,7 +28,9 @@
     .right_header {
         height: 40%;
     }
+ 
 
+    /* header end */
     .container_voitures {
         height: 30vh;
         width: 90%;
