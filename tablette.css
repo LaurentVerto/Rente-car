@@ -1,0 +1,47 @@
+@media (max-width: 1181px) {
+    
+    .left_header, .filtre, .right_header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .left_header {
+        height: 15vh;
+    }
+
+    .left_header button, .left_header .date {
+        width: 98%;
+        height: 25%;
+    }
+
+    .date input {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right_header {
+        height: 30%;
+    }
+
+    .container_voiture {
+        height: 40vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
