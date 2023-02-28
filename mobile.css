@@ -22,16 +22,21 @@
     }
 
     .right_header {
-        height: 45%;
+        height: 40%;
     }
 
     .container_voitures {
         height: 30vh;
+        width: 90%;
     }
 
     .container {
-        width: 100%;
+        width: 90%;
     }
+
+    
+
+
     .desc_v {
         display: none;
     }
@@ -49,8 +54,15 @@
         justify-content: center;
     }
 
+    .right button {
+        font-size: 9px;
+        width: 100%;
+        
+    }
+
     footer {
-        width: 60%;
+        width: 90%;
+        font-size: 12px;
     }
 
 
