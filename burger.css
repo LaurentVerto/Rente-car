@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-1000px);
+    transition: transform 500ms;
+    width: 100%;
+    background-color: #fff;
+    color: grey;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+}
+
+nav a:hover {
+    background-color: grey;
+    color: white;
+}
+
+#burger {
+    display: none;
+}
+
+#burger:checked+nav {
+    transform: translateY(+30px);
+    transition: transform 500ms;
+}
+
+
+#style_burger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: linear-gradient(#fff 0%, #ffffff 20%, transparent 21%, transparent 40%, #fff 41%, #fff 60%, transparent 61%, transparent 80%, #ffffff 81% ,#ffffff 100%);
+}
