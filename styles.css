@@ -80,7 +80,6 @@ h2 {
 
 .container {
     width: 70%;
-    height: 150vh;
 }
 
 .result {
@@ -142,4 +141,23 @@ h2 {
 
 .right_cross {
     transform: rotate(-90deg);
+}
+
+/*fin de la section voiture */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    padding: 50px 0px 100px 0px;
+}
+
+footer img {
+    height: 10vh;
+}
+
+.coordonnes {
+    line-height: 20px;
+    height: 10vh;
 }
